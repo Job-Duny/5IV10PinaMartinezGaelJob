@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.ces,
+.vig {
+    display: none;
+}
+
+.cesar,
+.vigg {
+    background-color: black;
+    font-family: sans-serif;
+    margin-top: 3em;
+    gap: 2.5em;
+    align-content: center;
+    justify-content: center;
+    display: grid;
+}
+
+body {
+    /*background: #0f2027; fallback for old browsers 
+    background: -webkit-linear-gradient(to right, #0f2027, #203a43, #2c5364);  Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: black;
+    font-family: sans-serif;
+    margin-top: 3em;
+    display: grid;
+    gap: 2.5em;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.btn-div-op {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 2.5rem;
+}
+
+.btn-op {
+    font-size: 1.5rem;
+    background: none;
+    padding: 10px 20px;
+    border: none;
+}
+
+.btn-op:hover {
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-op:focus {
+    text-decoration: underline;
+    font-size: 2rem;
+    transition: all .2s;
+    font-weight: bold;
+}
+
+
+h2 {
+    justify-content: center;
+    text-align: center;
+    font-weight: 200;
+    font-size: 2.5rem;
+}
+
+textarea {
+    width: auto;
+    height: auto;
+    font-size: 1rem;
+    padding: 0.6em 0.3em;
+    background: none;
+    border: none;
+    outline: none;
+    border: 2px solid transparent;
+    border-bottom: 2px solid white;
+    margin: auto;
+    transition: all .5s;
+}
+
+textarea:focus {
+    border: 2px solid white;
+    transition: all .5s;
+    border-radius: 10px;
+}
+
+.desp {
+    width: auto;
+    height: auto;
+    font-size: 1rem;
+    padding: 0.6em 0.3em;
+    background: none;
+    border: none;
+    outline: none;
+    border: 2px solid transparent;
+    border-bottom: 2px solid white;
+    margin: auto;
+}
+
+.key {
+    width: auto;
+    height: auto;
+    font-size: 1rem;
+    padding: 0.6em 0.3em;
+    background: none;
+    border: none;
+    outline: none;
+    border: 2px solid transparent;
+    border-bottom: 2px solid white;
+    margin: auto;
+}
+
+.btn-div {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.btn {
+    background: none;
+    padding: 10px 20px;
+    border: none;
+}
+
+.btn:hover {
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar {
+    background: none;
+}
+
+::-webkit-scrollbar-thumb {
+    border: 1px solid white;
+    border-radius: 10px;
+}
