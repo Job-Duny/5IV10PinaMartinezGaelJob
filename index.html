@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="StyleSheet" href="./css/style.css">
+    <title>Cifrados</title>
+</head>
+
+<body>
+    <div class="btn-div-op">
+        <input type="button" value="Cesaar" class="btn-op" onclick="mostrarCes();">
+        <input type="button" value="Viggenere" class="btn-op" onclick="mostrarVig();">
+    </div>
+
+    <div class="ces" id="ces">
+        <div class="cesar" id="cesar">
+            <h2>Cifrado Cesar</h2>
+            <br>
+            <textarea id="cadena" cols="37" rows="4" placeholder="Ingresa el mensaje"></textarea>
+            <input class="desp" type="text" placeholder="desplazamiento" id="desp">
+            <div class="btn-div">
+                <input type="button" value="cifrar" class="btn" onclick="cifrar()">
+                <input type="button" value="descifrar" class="btn" onclick="descifrar()">
+            </div>
+            <div id="resultado" class="res">
+                Resultado:
+            </div>
+            <script src="JS/Cesar.js"></script>
+        </div>
+    </div>
+
+    <div class="vig" id="vig">
+        <div class="vigg" id="vigg">
+            <h2>Viggenere</h2>
+            <br>
+            <textarea id="mess" cols="30" rows="4" placeholder="mensaje"></textarea>
+            <textarea id="llave" rows="1" class="key" placeholder="Key"></textarea>
+            <br>
+            <div class="btn-div">
+                <input type="button" value="cifrar" id="ci" class="btn">
+                <input type="button" value="descifrar" id="de" class="btn">
+            </div>
+
+            <div id="rs"></div>
+
+            <script src="js/jquery.js"></script>
+            <script src="./js/viggenere.js"></script>
+        </div>
+    </div>
+
+    <script>
+
+    </script>
+</body>
+
+</html>
